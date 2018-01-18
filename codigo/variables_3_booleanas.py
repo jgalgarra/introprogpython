@@ -66,7 +66,7 @@ dummy = input()
 
 # Ahora vamos a ver un ejemplo muy sencillo. Luego lo haremos un poco más divertido con un juego
 numero_secreto = 7            # OK, no es muy secreto porque ya sabes programar en Python, pero lo es para alguien que solo use el programa
-num_del_usuario = int(input("He pensado un número secreto del 1 al 10. A ver si lo adivinas "))
+num_del_usuario = int(input("He pensado un número secreto del 1 al 10. A ver si lo adivinas: "))
 
 if (num_del_usuario == numero_secreto):
     print("¡Impresionante!, lo adivinaste")
