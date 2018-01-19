@@ -47,6 +47,7 @@ plt.ylabel('y')            # Etiqueta del eje y. Podriamos no ponerla
 plt.xlabel('x')            # Etiqueta del eje x
 plt.show()                 # Esta función ordena mostrar la imagen en una ventanita nueva
 
+print("")
 dummy = input("Muy hermosa la función sen(3x), ahora vamos a ver como es sen(5x)")
 y_5sin = []
 
@@ -60,6 +61,7 @@ plt.ylabel('y')            # Etiqueta del eje y. Podriamos no ponerla
 plt.xlabel('x')            # Etiqueta del eje x
 plt.show()                 # Esta función ordena mostrar la imagen en una ventanita nueva
 
+print("")
 dummy = input("¿Qué crees que pasa si sumamos las tres ondas?")
 
 y_suma = []

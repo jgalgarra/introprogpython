@@ -18,7 +18,7 @@ x_valores = crea_lista_de_valores(1,10)
 # Ahora vamos a crear los valores y. La formula de la recta es y = 2 * x
 # Recorremos los valores de x para crear otra lista de valores y
 # La lista de valores x es [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# y la lista de valores será [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+# y la lista de valores y será [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 y_valores = []
 for k in x_valores:

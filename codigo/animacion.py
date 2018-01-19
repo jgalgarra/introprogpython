@@ -2,7 +2,7 @@
 # Basado en https://matplotlib.org/examples/animation/simple_anim.html
 # Autor: Javier Garcia Algarra 
 # Fecha: 28 de diciembre de 2017
-# Descripción: Ejemplo de suma de series de Fourier
+# Descripción: Ejemplo de animacion
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ def init():
     return line,
 
 
-def animate_sin(i):
+def animate_sin_wave(i):
     line.set_ydata(np.sin(x+ i/10.0))  # update the data
     return line,
 
@@ -31,16 +31,20 @@ def animate_square_wave(i):
     return line,
 
 def animate_noisy_wave(i):
-    line.set_ydata(0.5*(np.sin(x+ i/10.0)+0.2*np.random.random(size=len(x)))) # update the data
+    line.set_ydata(0.5*(np.sin(x+ i/10.0)+0.4*np.random.random(size=len(x)))) # update the data
     return line,
 
 speed = 20
 frames = 200
-funcion = animate_square_wave
+
+# Quitar el comentario de ls función de onda que se representa: seno, seno con ruido gaussiano o 'cuadrada'
+funcion = animate_sin_wave
+#funcion = animate_noisy_wave
+#funcion = animate_square_wave
+
 
 ani = animation.FuncAnimation(fig, funcion, np.arange(1, frames), init_func=init,
                           interval=speed, blit=True)
 plt.show()
 
-
-
+funcion = animate_sin_wave
