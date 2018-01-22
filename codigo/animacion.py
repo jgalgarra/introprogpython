@@ -38,9 +38,9 @@ speed = 20
 frames = 200
 
 # Quitar el comentario de ls función de onda que se representa: seno, seno con ruido gaussiano o 'cuadrada'
-funcion = animate_sin_wave
+#funcion = animate_sin_wave
 #funcion = animate_noisy_wave
-#funcion = animate_square_wave
+funcion = animate_square_wave
 
 
 ani = animation.FuncAnimation(fig, funcion, np.arange(1, frames), init_func=init,
