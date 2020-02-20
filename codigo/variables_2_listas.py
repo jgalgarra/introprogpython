@@ -32,7 +32,7 @@ print(lista_a)
 
 dummy = input()
 
-print("Ahora vamos a ver como funcionan las listas de números")
+print("Ahora vamos a ver cómo funcionan las listas de números")
 # También podemos tener listas de números
 lista_b = [8, 9, 10, 4]
 # Python es muy inteligente y puede sumar todos los elementos de una vez
