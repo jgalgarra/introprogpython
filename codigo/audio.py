@@ -12,7 +12,7 @@ sol = 393
 la = 440
 si = 494
 do_5 = 523
-duration = 800  # millisecond
+duration = 600  # millisecond
 
 winsound.Beep(do, duration)
 winsound.Beep(re, duration)
