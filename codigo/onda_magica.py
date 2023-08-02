@@ -17,11 +17,10 @@ def crealistadevaloresreales(inferior, superior, paso):
         j = j + paso
     return(listadevalores)                       # Se devuelve la lista completa
 
-# Crear una lista de números naturales, del -9 al 9
+# Crear una lista de números entre 0 y 4*PI
 x_valores = crealistadevaloresreales(0,4*PI,0.1)
 
-# Ahora vamos a crear los valores y. La formula de la circunferencia es y**2 + x**2 = radio**2
-# Recorremos los valores de x para crear otra lista de valores y
+# Ahora vamos a crear los valores y. 
 
 y_sin = []
 

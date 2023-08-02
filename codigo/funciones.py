@@ -21,7 +21,7 @@ dummy = input()
 
 print("Vamos a calcular la suma de los números 1 al 8")
 suma = 0
-for i in range(1,8):    # Cuando pones dos números range genera desde el mínimo hasta el máximo menos 1
+for i in range(1,9):    # Cuando pones dos números range genera desde el mínimo hasta el máximo menos 1
     suma = suma + i
 print("La suma de los 8 primeros números enteros vale",suma)
 

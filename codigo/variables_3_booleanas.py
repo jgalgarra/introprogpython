@@ -21,7 +21,7 @@ a_mayor_que_b = (a > b)
 a_menor_que_b = (a < b)
 print("La variable a vale",a,"y la variable b vale",b)
 print("Si digo que a es mayor que b, es",a_mayor_que_b)
-print("Si digo que a es mayor que b, es",a_menor_que_b)
+print("Si digo que a es menor que b, es",a_menor_que_b)
 
 # Espera
 dummy = input()
