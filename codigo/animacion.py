@@ -42,9 +42,7 @@ frames = 200
 #funcion = animate_noisy_wave
 funcion = animate_square_wave
 
-
 ani = animation.FuncAnimation(fig, funcion, np.arange(1, frames), init_func=init,
                           interval=speed, blit=True)
 plt.show()
 
-funcion = animate_sin_wave
